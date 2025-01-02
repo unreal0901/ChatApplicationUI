@@ -1,0 +1,316 @@
+{
+  "inboxes": [
+    {
+      "name": "AttackOnTitan",
+      "count": 232,
+      "icon": "https://i.pinimg.com/736x/b4/c1/25/b4c1251a448ab301fce67bfa9c69abc5.jpg",
+      "participants": [
+        {
+          "name": "Mikasa",
+          "avatar": "https://i.pinimg.com/736x/9f/87/7c/9f877c2062221ea223eb7c69d7d1bda5.jpg",
+          "lastActive": "12:00pm",
+          "location": "Bangalore, Karnataka",
+          "email": "mikasa@example.com",
+          "phone": "1234567890",
+          "segment": "Abandoned Cart",
+          "lastVisited": "8 Aug, 2021",
+          "message": "Hello",
+          "isVerified": true,
+          "platform": {
+            "name": "WhatsApp",
+            "icon": "https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Whatsapp2_colored_svg-512.png"
+          },
+          "isRead": true,
+          "analytics": {
+            "orders": {
+              "count": 3,
+              "price": 3452
+            },
+            "clicks": {
+              "totalClicks": 42,
+              "linkClicks": 12
+            }
+          },
+          "messages": [
+            {
+              "message": "Hello i want to purchase this product",
+              "time": "12:00",
+              "type": "standard",
+              "direction": "outgoing"
+            },
+            {
+              "message": "Hi Mikasa",
+              "time": "12:01",
+              "type": "smart"
+            },
+            {
+              "message":"Hello Eren, this side. How can i help you?",
+              "time": "12:02",
+              "type":"standard",
+              "direction":"incoming"
+            },
+            {
+              "message": "How are you?",
+              "time": "12:02",
+              "type": "standard",
+              "direction": "incoming"
+            }
+          ],
+          "tags": [
+            {
+              "id": 1,
+              "name": "urgent"
+            },
+            {
+              "id": 2,
+              "name": "follow-up"
+            },
+            {
+              "id": 3,
+              "name": "important"
+            }
+          ]
+        },
+        {
+          "name": "Eren",
+          "avatar": "https://i.pinimg.com/736x/8f/75/58/8f75584deba1857039721a027a231ae5.jpg",
+          "lastActive": "2:00pm",
+          "location": "Tokyo, Japan",
+          "email": "eren@example.com",
+          "phone": "0987654321",
+          "segment": "Interested",
+          "lastVisited": "20 Aug, 2021",
+          "message": "Hi Mikasa",
+          "isVerified": false,
+          "platform": {
+            "name": "Telegram",
+            "icon": "https://cdn3.iconfinder.com/data/icons/social-icons-33/512/Telegram-256.png"
+          },
+          "isRead": false,
+          "analytics": {
+            "orders": {
+              "count": 2,
+              "price": 1245
+            },
+            "clicks": {
+              "totalClicks": 30,
+              "linkClicks": 7
+            }
+          },
+          "messages": [
+            {
+              "message": "How are you?",
+              "time": "2:00",
+              "type": "standard",
+              "direction": "incoming"
+            },
+            {
+              "message": "Did you check the new product?",
+              "time": "2:03",
+              "type": "product",
+              "username": "Mikasa"
+            }
+          ],
+          "tags": [
+            {
+              "id": 4,
+              "name": "new"
+            },
+            {
+              "id": 5,
+              "name": "urgent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Naruto",
+      "count": 120,
+      "icon": "https://static.vecteezy.com/system/resources/previews/026/620/800/non_2x/uzumaki-clan-symbol-naruto-free-vector.jpg",
+      "participants": [
+        {
+          "name": "Sasuke",
+          "avatar": "https://i.pinimg.com/736x/3b/5b/3e/3b5b3e0059e5c83be2c73df4c2ac03cc.jpg",
+          "lastActive": "1:00pm",
+          "location": "Konoha, Japan",
+          "email": "sasuke@example.com",
+          "phone": "1231231234",
+          "segment": "Product Inquiries",
+          "lastVisited": "12 Sep, 2021",
+          "message": "Looking for your help",
+          "isVerified": true,
+          "platform": {
+            "name": "WeChat",
+            "icon": "https://cdn2.iconfinder.com/data/icons/social-media-applications/64/social_media_applications_9-wechat-256.png"
+          },
+          "isRead": false,
+          "analytics": {
+            "orders": {
+              "count": 5,
+              "price": 5600
+            },
+            "clicks": {
+              "totalClicks": 57,
+              "linkClicks": 19
+            }
+          },
+          "messages": [
+            {
+              "message": "I need more information on the new product.",
+              "time": "1:00",
+              "type": "smart",
+              "direction": "incoming"
+            },
+            {
+              "message": "Is there a discount for members?",
+              "time": "1:05",
+              "type": "product",
+              "username": "Naruto"
+            }
+          ],
+          "tags": [
+            {
+              "id": 6,
+              "name": "priority"
+            },
+            {
+              "id": 7,
+              "name": "loyal"
+            }
+          ]
+        },
+        {
+          "name": "Naruto",
+          "avatar": "https://i.pinimg.com/564x/92/d5/b0/92d5b0abec8d2680006535a618f8712a.jpg",
+          "lastActive": "3:00pm",
+          "location": "Hidden Leaf Village",
+          "email": "naruto@example.com",
+          "phone": "7890123456",
+          "segment": "Product Inquiries",
+          "lastVisited": "5 Oct, 2021",
+          "message": "What’s up Sasuke?",
+          "isVerified": true,
+          "platform": {
+            "name": "LINE",
+            "icon": "https://cdn2.iconfinder.com/data/icons/social-media-2189/48/7-Line-256.png"
+          },
+          "isRead": true,
+          "analytics": {
+            "orders": {
+              "count": 10,
+              "price": 5000
+            },
+            "clicks": {
+              "totalClicks": 63,
+              "linkClicks": 21
+            }
+          },
+          "messages": [
+            {
+              "message": "I need your help with the new feature.",
+              "time": "3:00",
+              "type": "product",
+              "username": "Sasuke"
+            }
+          ],
+          "tags": [
+            {
+              "id": 8,
+              "name": "active"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DragonBallZ",
+      "count": 80,
+      "icon": "https://static.vecteezy.com/system/resources/previews/029/167/296/non_2x/goku-gi-logo-dragonball-free-vector.jpg",
+      "participants": [
+        {
+          "name": "Goku",
+          "avatar": "https://miro.medium.com/v2/resize:fit:1400/1*y-YpDxm4uOsulc3Zt_EG7w.png",
+          "lastActive": "6:00pm",
+          "location": "Earth",
+          "email": "goku@example.com",
+          "phone": "1112233445",
+          "segment": "New User",
+          "lastVisited": "12 Sep, 2021",
+          "message": "Kakarot",
+          "isVerified": true,
+          "platform": {
+            "name": "Facebook",
+            "icon": "https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png"
+          },
+          "isRead": true,
+          "analytics": {
+            "orders": {
+              "count": 8,
+              "price": 2455
+            },
+            "clicks": {
+              "totalClicks": 32,
+              "linkClicks": 7
+            }
+          },
+          "messages": [
+            {
+              "message": "Ready to fight!",
+              "time": "6:00",
+              "type": "smart",
+              "direction": "outgoing"
+            }
+          ],
+          "tags": [
+            {
+              "id": 9,
+              "name": "urgent"
+            }
+          ]
+        },
+        {
+          "name": "Vegeta",
+          "avatar": "https://images.saymedia-content.com/.image/t_share/MTc2MjcyODU3Nzg4MDY0OTQx/why-vegeta-is-better-than-goku.jpg",
+          "lastActive": "7:30pm",
+          "location": "Planet Vegeta",
+          "email": "vegeta@example.com",
+          "phone": "9988776655",
+          "segment": "Interested",
+          "lastVisited": "22 Sep, 2021",
+          "message": "I will defeat you, Kakarot",
+          "isVerified": false,
+          "platform": {
+            "name": "Discord",
+            "icon": "https://cdn0.iconfinder.com/data/icons/free-social-media-set/24/discord-256.png"
+          },
+          "isRead": false,
+          "analytics": {
+            "orders": {
+              "count": 6,
+              "price": 1780
+            },
+            "clicks": {
+              "totalClicks": 41,
+              "linkClicks": 14
+            }
+          },
+          "messages": [
+            {
+              "message": "You can't beat me, Kakarot",
+              "time": "7:30",
+              "type": "standard",
+              "direction": "incoming"
+            }
+          ],
+          "tags": [
+            {
+              "id": 10,
+              "name": "priority"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
