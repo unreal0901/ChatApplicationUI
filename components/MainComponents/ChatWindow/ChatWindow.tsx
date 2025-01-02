@@ -45,7 +45,7 @@ const ChatWindow = ({ participant }: ChatWindowProps) => {
                 return (
                   <MessageBubble
                     key={index}
-                    type={message.direction}
+                    type={message.direction as "incoming" | "outgoing" | "system"}
                     content={message.message}
                     timestamp={message.time}
                   />

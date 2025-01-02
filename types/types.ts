@@ -2,7 +2,7 @@ export type Message = {
   message: string;
   time: string;
   type: string;
-  direction?: "incoming" | "outgoing";
+  direction?: string;
   username?: string;
 };
 
